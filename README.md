@@ -24,3 +24,4 @@ Some resources used to create an Auction system implemented using Google app scr
 
 ### To Note
 * There are a lot of intermediate steps needed in between to link these. you will need to host your python scripts somewhere. I'd reccomend heroku but Google Cloud might make more sense.
+* to do something on a form submit, look into installable triggers, also you can ask me if you get there
