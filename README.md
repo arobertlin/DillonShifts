@@ -4,6 +4,4 @@ Some resources used to create an Auction system implemented using Google app scr
 
 ## Getting Started
 
-Start by going to 
-* [quickstart](https://developers.google.com/apps-script/api/quickstart/python) and follow all the steps, except use my quickstart.py
-for step 3 instead of their code
+* Start by going to [quickstart](https://developers.google.com/apps-script/api/quickstart/python) and follow all the steps, except use my '''quickstart.py''' for step 3 instead of their code
