@@ -7,7 +7,7 @@ from oauth2client import file as oauth_file, client, tools
 def main():
     """Runs the sample.
     """
-    SCRIPT_ID = '1h0wlAzCFLNydMdAIeC9kI7jkuRNLMGoxlID-UyQSZ027QSvKAGQhc6XM'
+    SCRIPT_ID = 'yourscriptid'
 
     # Setup the Apps Script API
     SCOPES = 'https://www.googleapis.com/auth/forms'

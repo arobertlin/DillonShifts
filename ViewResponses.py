@@ -7,7 +7,7 @@ from oauth2client import file as oauth_file, client, tools
 def main():
     """Runs the sample.
     """
-    SCRIPT_ID = '14TAQrWkRXBXek7B6wbgrOgeHb0Fiz_igLx_B3tE-iy7-pxRFgHD2vGBI'
+    SCRIPT_ID = 'yourscriptid'
 
     # Setup the Apps Script API
     SCOPES = 'https://www.googleapis.com/auth/forms'
@@ -19,7 +19,7 @@ def main():
     service = build('script', 'v1', credentials=creds)
 
     # Create an execution request object.
-    request = {"function": "viewResponses", "parameters": ["1aDYtEqFL-1u8J87oIwJNvm9MfBOu4izl5tFzTUxwo9g"], "devMode": True}
+    request = {"function": "viewResponses", "parameters": ["yourformid"], "devMode": True}
 
     try:
         # Make the API request.
